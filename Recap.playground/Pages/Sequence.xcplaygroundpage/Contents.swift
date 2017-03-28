@@ -34,6 +34,12 @@ var points : [NSPoint] = [] //Create empty list (array) kf tyle NSPoint
 points.append( NSPoint(x: 375, y: 50) )
 points.append( NSPoint(x: 275, y: 300) )
 points.append( NSPoint(x: 475, y: 300) )
+Color.green
+
+//Draw Rectangle
+
+canvas.drawRectangle(bottomLeftX: 100, bottomLeftY: 25, width: 145, height: 300, borderWidth: 0)
+Color.blue
 
 canvas.drawCustomShape(with: points)
 
