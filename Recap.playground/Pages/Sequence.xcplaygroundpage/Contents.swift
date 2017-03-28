@@ -29,6 +29,13 @@ let canvas = Canvas(width: 500, height: 400)
 
 // Replace this comment and add your code below 
 
+// Draw a triangle using custom shape
+var points : [NSPoint] = [] //Create empty list (array) kf tyle NSPoint
+points.append( NSPoint(x: 375, y: 50) )
+points.append( NSPoint(x: 275, y: 300) )
+points.append( NSPoint(x: 475, y: 300) )
+
+canvas.drawCustomShape(with: points)
 
 /*:
  ## Template code
